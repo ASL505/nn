@@ -169,31 +169,28 @@ print(np.argmax(x, axis=1))
 # #### 24,画图，y=x*x 其中 x = np.arange(0, 100, 0.1) （提示这里用到  matplotlib.pyplot 库）
 print("\n")
 plt.rcParams['figure.dpi'] = 300
-
-
 # 生成 x 值
 x = np.arange(0, 100, 0.1)
 # 计算对应的 y 值
 y = x * x
-
 # 创建图形并绘制曲线
 plt.figure(figsize=(5, 3))
 plt.plot(x, y, label='$y = x^2$', color='blue')
-
 # 添加标题和标签
 plt.title('Graph of $y = x^2$')
 plt.xlabel('x')
 plt.ylabel('y')
-
 # 显示图例
 plt.legend()
-
 # 显示网格线
 plt.grid(True)
-
 # 显示图形
-
 plt.show()
+
+
+
+
+
 
 # #### 25.画图。画正弦函数和余弦函数， x = np.arange(0, 3 * np.pi, 0.1)(提示：这里用到 np.sin() np.cos() 函数和 matplotlib.pyplot 库)
 print("\n")
